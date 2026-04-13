@@ -76,9 +76,11 @@ export function Footer() {
               <Icon name="public" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/a77ontour/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-primary shadow-sm transition-transform hover:scale-110 dark:bg-slate-800"
-              aria-label="Rede social"
+              aria-label="ALLON no Instagram (@a77ontour)"
             >
               <Icon name="photo_camera" />
             </a>
