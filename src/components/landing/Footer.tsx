@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-12 py-16 md:grid-cols-4">
         <div className="space-y-6">
           <a href="#" className="inline-block" aria-label="ALLON — Início">
-            <img src={logoAllon} alt="" className="h-10 w-auto" />
+            <img src={logoAllon} alt="" className="h-16 w-auto sm:h-20" />
             <span className="sr-only">ALLON</span>
           </a>
           <p className="text-sm tracking-wide text-slate-500 dark:text-slate-400">

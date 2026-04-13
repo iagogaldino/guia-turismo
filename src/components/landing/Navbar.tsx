@@ -14,7 +14,7 @@ export function Navbar() {
     <nav className="fixed top-0 z-50 w-full bg-slate-50/70 shadow-sm backdrop-blur-xl dark:bg-slate-900/70 dark:shadow-none">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
         <a className="flex items-center gap-2" href="#" aria-label="ALLON — Início">
-          <img src={logoAllon} alt="" className="h-9 w-auto" />
+          <img src={logoAllon} alt="" className="h-14 w-auto sm:h-16" />
           <span className="sr-only">ALLON</span>
         </a>
         <div className="hidden items-center gap-8 md:flex">
