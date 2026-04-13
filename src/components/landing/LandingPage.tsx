@@ -1,4 +1,5 @@
 import { WhatsAppFab } from "../WhatsAppFab.tsx";
+import { BrandStory } from "./BrandStory.tsx";
 import { ExperiencesShowcase } from "./ExperiencesShowcase.tsx";
 import { FinalCta } from "./FinalCta.tsx";
 import { Footer } from "./Footer.tsx";
@@ -15,6 +16,7 @@ export function LandingPage() {
       <Navbar />
       <main>
         <Hero />
+        <BrandStory />
         <HowItWorks />
         <ExperiencesShowcase />
         <ValueProps />

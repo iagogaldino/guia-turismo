@@ -28,7 +28,7 @@ export function ValueProps() {
     <section className="bg-surface py-24">
       <div className="mx-auto max-w-7xl px-8">
         <p className="mb-12 text-center text-sm font-semibold uppercase tracking-wide text-secondary">
-          Porquê Guia Turismo
+          Porquê Allon
         </p>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-4">
           {items.map((item) => (
