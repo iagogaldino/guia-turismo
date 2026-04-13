@@ -1,5 +1,6 @@
 import { Icon } from "../Icon.tsx";
 import logoAllon from "../../assets/project/logo.png";
+import { WHATSAPP_CHAT_URL, WHATSAPP_NUMBER_LABEL } from "../../constants/contact.ts";
 
 export function Footer() {
   return (
@@ -83,6 +84,15 @@ export function Footer() {
               aria-label="ALLON no Instagram (@a77ontour)"
             >
               <Icon name="photo_camera" />
+            </a>
+            <a
+              href={WHATSAPP_CHAT_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-[#25D366] text-white shadow-sm transition-transform hover:scale-110 hover:bg-[#20bd5a]"
+              aria-label={`WhatsApp ${WHATSAPP_NUMBER_LABEL}`}
+            >
+              <Icon name="chat" />
             </a>
           </div>
         </div>

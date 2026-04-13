@@ -1,3 +1,4 @@
+import { WhatsAppFab } from "../WhatsAppFab.tsx";
 import { ExperiencesShowcase } from "./ExperiencesShowcase.tsx";
 import { FinalCta } from "./FinalCta.tsx";
 import { Footer } from "./Footer.tsx";
@@ -22,6 +23,7 @@ export function LandingPage() {
         <FinalCta />
       </main>
       <Footer />
+      <WhatsAppFab />
     </>
   );
 }

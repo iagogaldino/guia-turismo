@@ -1,3 +1,5 @@
+import { WHATSAPP_CHAT_URL, WHATSAPP_NUMBER_LABEL } from "../../constants/contact.ts";
+
 export function FinalCta() {
   return (
     <section className="relative overflow-hidden bg-white py-32">
@@ -15,12 +17,15 @@ export function FinalCta() {
           >
             Reservar experiência
           </button>
-          <button
-            type="button"
-            className="rounded-full border-2 border-primary/20 bg-white px-10 py-5 text-xl font-bold text-primary transition-all hover:bg-slate-50"
+          <a
+            href={WHATSAPP_CHAT_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full border-2 border-primary/20 bg-white px-10 py-5 text-xl font-bold text-primary transition-all hover:bg-slate-50"
+            aria-label={`Falar connosco no WhatsApp (${WHATSAPP_NUMBER_LABEL})`}
           >
             Falar connosco
-          </button>
+          </a>
         </div>
       </div>
     </section>

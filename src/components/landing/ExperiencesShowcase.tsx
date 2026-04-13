@@ -28,8 +28,8 @@ export function ExperiencesShowcase() {
             Todos os estilos disponíveis
           </span>
         </div>
-        <div className="grid min-h-[600px] grid-cols-1 gap-6 md:grid-cols-12">
-          <div className="group relative overflow-hidden rounded-xl md:col-span-5">
+        <div className="grid grid-cols-1 gap-4 md:h-[400px] md:grid-cols-12 md:gap-5 lg:h-[440px]">
+          <div className="group relative min-h-[200px] overflow-hidden rounded-xl md:col-span-5 md:min-h-0 md:h-full">
             <img
               src={IMG_WALK}
               alt="Arcadas da Praça do Comércio em Lisboa, com visitantes a passear"
@@ -46,9 +46,9 @@ export function ExperiencesShowcase() {
               </h3>
             </div>
           </div>
-          <div className="grid grid-rows-2 gap-6 md:col-span-7">
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-              <div className="group relative min-h-[180px] overflow-hidden rounded-xl sm:min-h-0">
+          <div className="grid grid-rows-2 gap-4 md:col-span-7 md:h-full md:min-h-0 md:gap-5">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-4 md:min-h-0 md:auto-rows-fr">
+              <div className="group relative min-h-[130px] overflow-hidden rounded-xl sm:min-h-0">
                 <img
                   src={IMG_BIKE}
                   alt="Bicicleta junto a uma parede com azulejos num dia de sol"
@@ -62,7 +62,7 @@ export function ExperiencesShowcase() {
                   </h3>
                 </div>
               </div>
-              <div className="group relative min-h-[180px] overflow-hidden rounded-xl sm:min-h-0">
+              <div className="group relative min-h-[130px] overflow-hidden rounded-xl sm:min-h-0">
                 <img
                   src={IMG_SCOOTER}
                   alt="Passeio urbano de patinete elétrico em ambiente citadino"
@@ -76,7 +76,7 @@ export function ExperiencesShowcase() {
                   </h3>
                 </div>
               </div>
-              <div className="group relative min-h-[180px] overflow-hidden rounded-xl sm:min-h-0">
+              <div className="group relative min-h-[130px] overflow-hidden rounded-xl sm:min-h-0">
                 <img
                   src={IMG_TUK}
                   alt="Tuk tuk colorido numa rua de calçada portuguesa"
@@ -91,7 +91,7 @@ export function ExperiencesShowcase() {
                 </div>
               </div>
             </div>
-            <div className="group relative min-h-[220px] overflow-hidden rounded-xl md:min-h-0">
+            <div className="group relative min-h-[160px] overflow-hidden rounded-xl md:min-h-0">
               <img
                 src={IMG_CAR}
                 alt="Rua da Madalena em Lisboa, com elétrico amarelo e trânsito"
