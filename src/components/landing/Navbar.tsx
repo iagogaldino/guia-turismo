@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Icon } from "../Icon.tsx";
+import logoAllon from "../../assets/project/logo.png";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -12,12 +13,9 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 z-50 w-full bg-slate-50/70 shadow-sm backdrop-blur-xl dark:bg-slate-900/70 dark:shadow-none">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
-        <a
-          className="text-2xl font-bold tracking-tight text-sky-900 dark:text-sky-100"
-          href="#"
-          style={{ fontFamily: "var(--font-headline)" }}
-        >
-          Guia Turismo
+        <a className="flex items-center gap-2" href="#" aria-label="ALLON — Início">
+          <img src={logoAllon} alt="" className="h-9 w-auto" />
+          <span className="sr-only">ALLON</span>
         </a>
         <div className="hidden items-center gap-8 md:flex">
           <a className={`${linkClass} ${linkActive}`} href="#experiencias">

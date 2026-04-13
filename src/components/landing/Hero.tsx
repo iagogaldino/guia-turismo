@@ -1,5 +1,6 @@
-const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAztITCkVzapvrRr6EByA0fCt2TbJvD7V2k5jYPLTNauZ9otLlg07u6kAX5niK9btj9muSrVpkT8VdiDybM8iQF2jukc0ZwHaUJOICAk1nO-3wKQyePvMr2bwhIHSz4y8OmYmJrPUNN5W3B_NwOEspZADlXD-bRJJfB9A6OpwzwwdgUVFrDSqqOnsfP0nMeGopLUk-GVaSOyeXIHt-4rWIB_2begE-ImxhkWerEU4gd9hz1UisjIZA2lyxYYAs0c6l4M39HFdwRrR5q";
+import heroImg from "../../assets/project/hero-riverfront.jpeg";
+
+const HERO_IMG = heroImg;
 
 export function Hero() {
   return (
@@ -7,7 +8,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src={HERO_IMG}
-          alt="Vista sobre o bairro da Alfama em Lisboa ao pôr do sol, com telhados e o rio Tejo"
+          alt="Cais junto ao rio Tejo em Lisboa, com calçada portuguesa e céu azul"
           className="h-full w-full object-cover"
           fetchPriority="high"
         />

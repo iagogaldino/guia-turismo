@@ -1,14 +1,15 @@
-const IMG_WALK =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuCI_gCamc50fvSvViy1-QjuID-jTT4b53ZBDlBbX5XhILZXVFLfTHM7SdQ7luofnaY5ZhU7wWAmZUkCoSmiczJ2oiG77GFaAlU7uuHPNCBtsDJX3lj5UoMiTmWQYKLFdaOalRZwx81Wh6uT4UF2N3gNxyXgGLxi1IO8hmpIXy30aW_7aLZgHPd8GrcSn_RMmJSpsLZWRQfEJyM7iKZQwDu7FK-gRJAj-jnLvpkpspJrnHpviZjrTnLUsD22dXiwxHGoI9DYzL8XwxlA";
-const IMG_BIKE =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAD52IeB6fwPDIvVwmkwIHcGq4mgxCNiVL9gXAUUWNxVYevFe2x1PfyGM4kdje5Ojy907hPnWHslnCkFJUEqJvKu2fmr1a7tQWdIFAn2iA-FNr-wjM0nNqEe1yilWq-ODTVxt0R5AaZv9iNEdeA9QtT9vlF4Ew7QH02_CIt6dzW34eXGSrtDwZ27s4TfNwZapeNGYhMW0nOi4XAsLX3lwTGgDO2rv5i0L3a6TAM0idDLs0cAcaYjQ3NHJmN2PV7otGAHkU_8HDcVhG-";
-const IMG_TUK =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAR0RE30L5-m4vSI_K_Ka2L0XEaKly5TfKB5ZzY8Oj7VxahRijcA06sltFCiWNJGe6-TYGGBahZj3PCV9h51N8ODAB6F96iNZkSAQmORQejWsGV6lhbCNpXRCCQ_iVXNZC8SDmnP2gzMR04QTpUWYuj1mKSr2BpyDMP66OQ6MiiI9seRlTEiJtVDw6guAqaDbF9KKszT-Rlpm09Vj-b3p6Yx7nZT5Z14qO3lGtXjpjafA_7BPYbD7W-EZtD9Jsr5sdtvDlEhPdCspMK";
-const IMG_CAR =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuB47Do2A-6UgD4Z-K9bJOhRbx4s2uxwjp8hND3Gdsl_ckf8qMzXQdfS97Nj5VknDzZpTU9bkXKVwRjDd8ZyfQkbAGKji1XUjNHZuC9XnpZLoD90D0qSOdTXIlDDevBXrEt6idzGC8shmjiCQjXHupwqgScJIdAV1EgrVIma9h9em9nyQhlXwd5BPbKRJypjBfQA8mh21r-FSgQPsBcLUR2_Zh8BDK7uxdPqGkKabhIuR29qnAxjLIo-VmSIVbEhOXIr2BNJ_z2qv2d3";
+import imgWalk from "../../assets/project/6.jpeg";
+import imgCar from "../../assets/project/7.jpeg";
 import patineteAsset from "../../assets/patinete.svg";
 
+const IMG_WALK = imgWalk;
+const IMG_CAR = imgCar;
+
+const IMG_BIKE =
+  "https://lh3.googleusercontent.com/aida-public/AB6AXuAD52IeB6fwPDIvVwmkwIHcGq4mgxCNiVL9gXAUUWNxVYevFe2x1PfyGM4kdje5Ojy907hPnWHslnCkFJUEqJvKu2fmr1a7tQWdIFAn2iA-FNr-wjM0nNqEe1yilWq-ODTVxt0R5AaZv9iNEdeA9QtT9vlF4Ew7QH02_CIt6dzW34eXGSrtDwZ27s4TfNwZapeNGYhMW0nOi4XAsLX3lwTGgDO2rv5i0L3a6TAM0idDLs0cAcaYjQ3NHJmN2PV7otGAHkU_8HDcVhG-";
 const IMG_SCOOTER = patineteAsset;
+const IMG_TUK =
+  "https://lh3.googleusercontent.com/aida-public/AB6AXuAR0RE30L5-m4vSI_K_Ka2L0XEaKly5TfKB5ZzY8Oj7VxahRijcA06sltFCiWNJGe6-TYGGBahZj3PCV9h51N8ODAB6F96iNZkSAQmORQejWsGV6lhbCNpXRCCQ_iVXNZC8SDmnP2gzMR04QTpUWYuj1mKSr2BpyDMP66OQ6MiiI9seRlTEiJtVDw6guAqaDbF9KKszT-Rlpm09Vj-b3p6Yx7nZT5Z14qO3lGtXjpjafA_7BPYbD7W-EZtD9Jsr5sdtvDlEhPdCspMK";
 
 export function ExperiencesShowcase() {
   return (
@@ -31,7 +32,7 @@ export function ExperiencesShowcase() {
           <div className="group relative overflow-hidden rounded-xl md:col-span-5">
             <img
               src={IMG_WALK}
-              alt="Ruela estreita em Lisboa com fachadas tradicionais ao amanhecer"
+              alt="Arcadas da Praça do Comércio em Lisboa, com visitantes a passear"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
               loading="lazy"
             />
@@ -93,7 +94,7 @@ export function ExperiencesShowcase() {
             <div className="group relative min-h-[220px] overflow-hidden rounded-xl md:min-h-0">
               <img
                 src={IMG_CAR}
-                alt="Estradas panorâmicas no vale do Douro ao nascer do dia"
+                alt="Rua da Madalena em Lisboa, com elétrico amarelo e trânsito"
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                 loading="lazy"
               />

@@ -1,16 +1,14 @@
 import { Icon } from "../Icon.tsx";
+import logoAllon from "../../assets/project/logo.png";
 
 export function Footer() {
   return (
     <footer className="mt-20 w-full rounded-t-[2rem] bg-slate-100 dark:bg-slate-950">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-12 py-16 md:grid-cols-4">
         <div className="space-y-6">
-          <a
-            href="#"
-            className="text-xl font-bold text-sky-900 dark:text-sky-100"
-            style={{ fontFamily: "var(--font-headline)" }}
-          >
-            Guia Turismo
+          <a href="#" className="inline-block" aria-label="ALLON — Início">
+            <img src={logoAllon} alt="" className="h-10 w-auto" />
+            <span className="sr-only">ALLON</span>
           </a>
           <p className="text-sm tracking-wide text-slate-500 dark:text-slate-400">
             Plataforma que liga turistas a guias locais em Portugal — experiências personalizadas, com autenticidade

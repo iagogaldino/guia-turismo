@@ -1,7 +1,8 @@
 import { Icon } from "../Icon.tsx";
 
-const GUIDE_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAZ3seJtkM9bc69Wj_jDk-OrHiV0_EhlURg21M7_eb3aI-V1DdrUSHlym8mLbPCabVSvzY3O5Ai31ZRzZBv3InPZ5WNSbn35TyWr7pzMF9weVeC_dijcVNldVIl0DpCL_ytCibV_Ha7ck1Vl4uz3KOvtkJ_srHwxR-4-ms_Vzc69g1JK_6f9ukMbJqOHZcYzodmw_GbRDQc3_siM2oiPj6_AaSFtl2TtFlMOF1SUHRIvqcv3gm1-fxWrxiSIAAPRKzvVGiAj2hKghH2";
+import guideImg from "../../assets/project/4.jpeg";
+
+const GUIDE_IMG = guideImg;
 
 export function GuideRecruitment() {
   return (
@@ -49,7 +50,7 @@ export function GuideRecruitment() {
         <div className="min-h-[320px] w-full md:w-1/2 md:min-h-[400px]">
           <img
             src={GUIDE_IMG}
-            alt="Guia local sorridente num jardim ensolarado"
+            alt="Praça do Comércio em Lisboa com a estátua equestre e visitantes"
             className="h-full w-full object-cover"
             loading="lazy"
           />
